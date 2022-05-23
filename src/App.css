@@ -1,10 +1,15 @@
+html {
+  background-color: #fcfcf9;
+}
 .container {
+  background-color: white;
   display: flex;
-  height: 100px;
+  height: 150px;
   width: 400px;
-  border: 1px solid grey;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  /* border: 1px solid grey; */
   border-radius: 5px;
-  box-shadow: 0 0 3px 2px grey;
+
   padding: 10px;
   margin: 10px;
 }
